@@ -1,0 +1,43 @@
+{
+  "name": "smart-api-gateway-js",
+  "version": "1.0.0",
+  "description": "A customizable and feature-rich API gateway with security features, rate limiting, and more. Built with Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "API Gateway",
+    "AI",
+    "Node.js",
+    "Security",
+    "Rate Limiting",
+    "CORS",
+    "Logging"
+  ],
+  "author": "Marjan Khodadadzadeh",
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "axios": "^1.7.4",
+    "chart.js": "^4.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.3.0",
+    "express-validator": "^7.2.0",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "openai": "^4.56.0",
+    "socket.io": "^4.7.5",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^2.0.0"
+  }
+}
